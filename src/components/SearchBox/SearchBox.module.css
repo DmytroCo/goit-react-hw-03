@@ -1,0 +1,20 @@
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+}
+
+.inputSearch {
+    width: 320px;
+    border: 2px solid #bb7364;
+    outline: none;
+    border-radius: 4px;
+    font-family: "Roboto Mono", serif;
+    font-size: 16px;
+    padding: 4px;
+    transition: border 300ms ease-in-out;
+}
+
+.inputSearch:focus {
+    border: 2px solid #854234;
+}
