@@ -1,0 +1,33 @@
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #bb7364;
+    border-radius: 4px;
+    padding: 12px;
+    min-width: 160px;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.deleteButton {
+    font-size: 16px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #bb7364;
+    border-radius: 4px;
+    background-color: #ffc8bd;
+    transition: border 300ms ease-in-out, background-color 300ms ease-in-out,
+        font-weight 300ms ease-in-out;
+}
+
+.deleteButton:hover,
+.deleteButton:focus {
+    border: 2px solid #854234;
+    background-color: #ffe8e3;
+    font-weight: 600;
+}
